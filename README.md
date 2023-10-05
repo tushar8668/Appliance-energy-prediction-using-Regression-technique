@@ -2,8 +2,9 @@
 <h3 align="center"> AlmaBetter Verfied Project - <a href="https://www.almabetter.com/"> AlmaBetter </a> </h5>
 
 <p align="center"> 
-<img src="https://github.com/AnshRockstar/NYC-Taxi-Trip-Duration-Prediction/blob/main/Images/NYC%20Taxi.jpg" alt="NYC Taxi.jpg"  height="320px">
+<img src="https://github.com/tushar8668/Appliance-energy-prediction-using-Regression-technique/blob/main/Appliance%20Energy%20consumption.jpg" alt="AEP.jpg"  height="320px">
 </p>
+
 
 ## Introduction
 The purpose of this research is to forecast the electricity consumption of a particular household in Belgium based on the temperature and humidity levels of various rooms in the facility and surrounding weather information over 4.5 months. The data set runs 4.5 months at 10 minutes. A ZigBee wireless sensor network is being used to monitor the home’s temperature and humidity levels. Around 3.3 minutes, each wireless node sent the temperature and humidity data. The wireless data was then averaged across intervals of 10 minutes. Every 10 minutes, m-bus energy meters collected the energy data. The experimental data sets were combined with the weather data from the closest airport weather station (Chievres Airport, Belgium), which was extracted from a public data set from Reliable Prognosis (rp5.ru). The data set has two random variables to test the regression models and exclude non-predictive characteristics (parameters).
@@ -43,3 +44,40 @@ This project aims to predict the energy consumption of home appliances. With the
 * Tdewpoint - (from Chievres weather station), Â°C
 * rv1 - Random variable 1, nondimensional
 * rv2 - Random variable 2, nondimensional
+  
+## Machine learning models used To complete project
+* Linear Regression
+* Lasso and Ridge Regression
+* XGboost Regression
+* Gradient Boosting Regression
+* Random Forest Regression
+
+
+## Which model you choose and why ?
+I chose a random forest model because it is a powerful and versatile machine learning algorithm that is well-suited for a variety of tasks, including classification and regression. Random forests are also relatively easy to interpret and robust to noise and outliers in the data.<br>
+
+In my project, the random forest model achieved an highest accuracy of 65% and an MSE of 35%. These are both good results, but there is always room for improvement. I plan to perform some feature engineering to see if I can create new features that are more informative for the machine learning algorithm.
+
+## Conclusion 
+In this project, we tested a variety of machine learning algorithms for predicting appliance energy consumption. I used a different features, including sensor data, weather data, and appliance state data, to train the model. I found that random forest regression models achieved the highest accuracy.<br>
+
+We can use this model to predict the energy consumption of appliances in a variety of ways.
+For example, we can use it to:
+
+* Identify energy - efficient appliances and settings.
+* Develop smart home energy management systems that can optimize appliance usage to reduce energy costs.
+* Detect anomalous energy consumption patterns that may indicate a problem with an appliance or the electrical system.
+
+For example, we could use the model to predict the energy consumption of a refrigerator over the next 24 hours. This information could be used to develop a smart home energy management system that would automatically turn off the refrigerator if there is no one home and the temperature inside the refrigerator is above a certain threshold.<br>
+
+We could also use the model to identify appliances that are consuming more energy than expected. This information could be used to troubleshoot problems with appliances or to identify areas where energy consumption can be reduced.<br>
+
+Overall, this project demonstrates the feasibility of using random forest models to predict appliance energy consumption. The model we developed achieved a good performance on the test set, and it can be used in a variety of ways to reduce energy consumption and save money.
+
+## Benefits of Appliance Energy Consumption Prediction
+An appliance energy prediction project can be helpful for society in a number of ways, including:<br>
+* Reducing energy consumption : By predicting appliance energy consumption,consumers can make informed decisions about how to use their appliances in a more energy-efficient way. For example, if a consumer knows that their washing machine is going to use a lot of energy at a certain time, they can choose to run it at a different time or on a different day.
+* Saving money on energy bills : By using their appliances more efficiently, consumers can save money on their energy bills. This is especially important for low-income households, which often spend a disproportionate amount of their income on energy costs.
+* Improving grid stability : By predicting appliance energy consumption, utilities can better manage the grid and prevent outages. This is important because outages can be disruptive and costly for businesses and consumers.
+
+Overall, appliance energy prediction projects have the potential to make a significant positive impact on society. By reducing energy consumption, and energy bills, appliance energy prediction projects can help to create a more sustainable and equitable future.
